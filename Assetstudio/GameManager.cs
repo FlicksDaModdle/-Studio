@@ -83,7 +83,7 @@ namespace AssetStudio
         public ZZZ()
         {
             Name = "ZZZ";
-            DisplayName = "Zenless Zero Zone";
+            DisplayName = "5";
             MapName = "ZZZMap";
             Extension = ".bundle";
             Path = "Win_Data/StreamingAssets/Bundles";
