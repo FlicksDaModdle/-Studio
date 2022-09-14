@@ -2,8 +2,6 @@ name: AssetStudioBuild
 
 on:
   push:
-    branches: [ master ]
-  push:
     tags: [ 'Release' ]
 
   workflow_dispatch:
