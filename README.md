@@ -6,12 +6,13 @@ New Discord Server:
 Join [here](https://discord.gg/JAeB5jGdcn) for more discussions, questions, suggestions and feedback.
 _____________________________________________________________________________________________________________________________
 
-This is the release of `HoYoStudio`, Modded AssetStudio that should work on:
+This is the release of `-Studio`, Modded AssetStudio that should work on:
 ```
-- Genshin Impact.
-- Honkai Impact 3rd.
-- Honkai: Star Rail.
-- Tears of Themis.
+- GI = 1
+- HI3 = 2
+- HSR = 3
+- ToT = 4
+These are game options in the studio.
 ```
 
 Note: Requires Internet connection to fetch asset_index jsons.
@@ -21,7 +22,7 @@ Some features are:
 ```
 - Change selected Game by using "Option -> Specify Game".
 - Integration with "Radioegor146" repo to load asset_index through "Options -> Specify AI version".
-- Exportable Assets (not all of them) with XOR/JSON support for "MiHoYoBinData"
+- Exportable Assets (not all of them) with XOR/JSON support for "GenshinOwnerBinData"
 - Togglable debug console.
 - Container/filename recovery for Assets.
 - Build AssetMap, An asset list of assets inside game files.
