@@ -8,10 +8,7 @@ ________________________________________________________________________________
 
 This is the release of `-Studio`, Modded AssetStudio that should work on:
 ```
-- GI = 1
-- HI3 = 2
-- HSR = 3
-- ToT = 4
+4e 75 6d 62 65 72 20 31 3a 20 47 65 6e 73 68 69 6e 20 49 6d 70 61 63 74 0a 4e 75 6d 62 65 72 20 32 3a 20 48 6f 6e 6b 61 69 20 49 6d 70 61 63 74 20 33 72 64 0a 4e 75 6d 62 65 72 20 33 3a 20 48 6f 6e 6b 61 69 20 49 6d 70 61 63 74 20 53 74 61 72 20 52 61 69 6c 0a 4e 75 6d 62 65 72 20 34 3a 20 54 65 61 72 73 20 6f 66 20 54 68 65 6d 69 73
 These are game options in the studio.
 ```
 
@@ -22,7 +19,7 @@ Some features are:
 ```
 - Change selected Game by using "Option -> Specify Game".
 - Integration with "Radioegor146" repo to load asset_index through "Options -> Specify AI version".
-- Exportable Assets (not all of them) with XOR/JSON support for "GenshinOwnerBinData"
+- Exportable Assets (not all of them) with XOR/JSON support for "47 65 6e 73 68 69 6eOwnerBinData"
 - Togglable debug console.
 - Container/filename recovery for Assets.
 - Build AssetMap, An asset list of assets inside game files.
