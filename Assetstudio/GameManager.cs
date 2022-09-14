@@ -78,17 +78,6 @@ namespace AssetStudio
             Path = "BH3_Data";
         }
     }
-    public class ZZZ : Game
-    {
-        public ZZZ()
-        {
-            Name = "ZZZ";
-            DisplayName = "5";
-            MapName = "ZZZMap";
-            Extension = ".bundle";
-            Path = "Win_Data/StreamingAssets/Bundles";
-        }
-    }
     public class SR : Game
     {
         public SR()
@@ -100,7 +89,6 @@ namespace AssetStudio
             Path = "StarRail_Data";
         }
     }
-
     public class TOT : Game
     {
         public TOT()
@@ -110,6 +98,17 @@ namespace AssetStudio
             MapName = "TOTMap";
             Extension = ".blk";
             Path = "AssetbundlesCache";
+        }
+    }
+    public class ZZZ : Game
+    {
+        public ZZZ()
+        {
+            Name = "ZZZ";
+            DisplayName = "5";
+            MapName = "ZZZMap";
+            Extension = ".bundle";
+            Path = "Win_Data/StreamingAssets/Bundles";
         }
     }
 }
