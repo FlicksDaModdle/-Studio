@@ -1,16 +1,16 @@
 # -Studio
 Check out the [original AssetStudio project](https://github.com/Perfare/AssetStudio) for more information.
 _____________________________________________________________________________________________________________________________
-New Discord Server: 
+```68 74 74 70 73 3a 2f 2f 64 69 73 63 6f 72 64 2e 67 67 2f 4a 41 65 42 35 6a 47 64 63 6e```
 
-Join [here](68 74 74 70 73 3a 2f 2f 64 69 73 63 6f 72 64 2e 67 67 2f 4a 41 65 42 35 6a 47 64 63 6e) for more discussions, questions, suggestions and feedback.
+Decryption Key
 _____________________________________________________________________________________________________________________________
 
-This is the release of `-Studio`, Modded AssetStudio that should work on:
+This is the release of `-Studio`, Modded AssetStudio that should work.
 ```
 4e 75 6d 62 65 72 20 31 3a 20 47 65 6e 73 68 69 6e 20 49 6d 70 61 63 74 0a 4e 75 6d 62 65 72 20 32 3a 20 48 6f 6e 6b 61 69 20 49 6d 70 61 63 74 20 33 72 64 0a 4e 75 6d 62 65 72 20 33 3a 20 48 6f 6e 6b 61 69 20 49 6d 70 61 63 74 20 53 74 61 72 20 52 61 69 6c 0a 4e 75 6d 62 65 72 20 34 3a 20 54 65 61 72 73 20 6f 66 20 54 68 65 6d 69 73
-These are game options in the studio.
 ```
+Hash Key
 
 Note: Requires Internet connection to fetch asset_index jsons.
 _____________________________________________________________________________________________________________________________
