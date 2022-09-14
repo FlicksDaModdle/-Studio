@@ -693,7 +693,15 @@ namespace AssetStudio
                     var m_MeshOptimized = reader.ReadBoolean();
                 }
             }
+            if (reader.Game.Name == "ZZZ")
+            {
+                var m_CloseMeshDynamicCompression = reader.ReadBoolean();
+                reader.AlignStream();
 
+                var m_CompressLevelVertexData = reader.ReadInt32();
+                var m_CompressLevelNormalAndTangent = reader.ReadInt32();
+                var m_CompressLevelTexCoordinates = reader.ReadInt32();
+            }
             if (version[0] > 2018 || (version[0] == 2018 && version[1] >= 2)) //2018.2 and up
             {
                 var m_MeshMetrics = new float[2];
