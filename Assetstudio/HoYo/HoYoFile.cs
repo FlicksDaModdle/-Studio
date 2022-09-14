@@ -36,6 +36,20 @@ namespace AssetStudio
                     var wmvFile = new WMVFile(reader);
                     bundles = wmvFile.Bundles;
                     break;
+                case "ZZZ":
+                    var zzz = GameManager.GetGame("ZZZ");
+                    if (ext != zzz.Extension)
+                        goto default;
+
+                    Mr0k.ExpansionKey = Crypto.ExpansionKey;
+                    Mr0k.Key = Crypto.Key;
+                    Mr0k.ConstKey = Crypto.ConstKey;
+                    Mr0k.SBox = null;
+                    Mr0k.BlockKey = null;
+
+                    var zzzFile = new BundleFile(reader);
+                    bundles.Add(0, zzzFile.FileList);
+                    break;
                 case "SR":
                     var sr = GameManager.GetGame("SR");
                     if (ext != sr.Extension)
