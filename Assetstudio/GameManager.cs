@@ -78,6 +78,17 @@ namespace AssetStudio
             Path = "BH3_Data";
         }
     }
+    public class ZZZ : Game
+    {
+        public ZZZ()
+        {
+            Name = "ZZZ";
+            DisplayName = "Zenless Zero Zone";
+            MapName = "ZZZMap";
+            Extension = ".bundle";
+            Path = "Win_Data/StreamingAssets/Bundles";
+        }
+    }
     public class SR : Game
     {
         public SR()
