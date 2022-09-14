@@ -61,7 +61,7 @@ namespace AssetStudio
         public GI()
         {
             Name = "GI";
-            DisplayName = "Genshin Impact";
+            DisplayName = "1";
             MapName = "BLKMap";
             Extension = ".blk";
             Path = "GenshinImpact_Data|Yuanshen_Data";
@@ -72,7 +72,7 @@ namespace AssetStudio
         public BH3()
         {
             Name = "BH3";
-            DisplayName = "Honkai Impact 3rd";
+            DisplayName = "2";
             MapName = "WMVMap";
             Extension = ".wmv";
             Path = "BH3_Data";
@@ -83,7 +83,7 @@ namespace AssetStudio
         public SR()
         {
             Name = "SR";
-            DisplayName = "Honkai: Star Rail";
+            DisplayName = "3";
             MapName = "ENCRMap";
             Extension = ".unity3d";
             Path = "StarRail_Data";
@@ -95,7 +95,7 @@ namespace AssetStudio
         public TOT()
         {
             Name = "TOT";
-            DisplayName = "Tears of Themis";
+            DisplayName = "4";
             MapName = "TOTMap";
             Extension = ".blk";
             Path = "AssetbundlesCache";
