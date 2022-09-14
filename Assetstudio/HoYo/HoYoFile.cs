@@ -14,16 +14,16 @@ namespace AssetStudio
             var ext = Path.GetExtension(reader.FileName);
             switch (reader.Game.Name)
             {
-                case "GI":
-                    var gi = GameManager.GetGame("GI");
+                case "1":
+                    var gi = GameManager.GetGame("1");
                     if (ext != gi.Extension)
                         goto default;
 
                     var blkFile = new BlkFile(reader);
                     bundles = blkFile.Bundles;
                     break;
-                case "BH3":
-                    var bh3 = GameManager.GetGame("BH3");
+                case "2":
+                    var bh3 = GameManager.GetGame("2");
                     if (ext != bh3.Extension)
                         goto default;
 
@@ -36,8 +36,8 @@ namespace AssetStudio
                     var wmvFile = new WMVFile(reader);
                     bundles = wmvFile.Bundles;
                     break;
-                case "ZZZ":
-                    var zzz = GameManager.GetGame("ZZZ");
+                case "5":
+                    var zzz = GameManager.GetGame("5");
                     if (ext != zzz.Extension)
                         goto default;
 
@@ -50,8 +50,8 @@ namespace AssetStudio
                     var zzzFile = new BundleFile(reader);
                     bundles.Add(0, zzzFile.FileList);
                     break;
-                case "SR":
-                    var sr = GameManager.GetGame("SR");
+                case "3":
+                    var sr = GameManager.GetGame("3");
                     if (ext != sr.Extension)
                         goto default;
 
@@ -64,8 +64,8 @@ namespace AssetStudio
                     var srFile = new BundleFile(reader);
                     bundles.Add(0, srFile.FileList);
                     break;
-                case "TOT":
-                    var tot = GameManager.GetGame("TOT");
+                case "4":
+                    var tot = GameManager.GetGame("4");
                     if (ext != tot.Extension)
                         goto default;
 
