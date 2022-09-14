@@ -120,6 +120,10 @@ namespace AssetStudio
                 case "UnityFS":
                 case "ENCR":
                     ReadHeader(reader);
+                    if (reader.Game.Name == "ZZZ")
+                    {
+                        reader.AlignStream(0x10);
+                    }   
                     ReadBlocksInfoAndDirectory(reader);
                     using (var blocksStream = CreateBlocksStream(reader.FullPath))
                     {
