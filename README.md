@@ -1,4 +1,4 @@
-# HoYoStudio
+# -Studio
 Check out the [original AssetStudio project](https://github.com/Perfare/AssetStudio) for more information.
 _____________________________________________________________________________________________________________________________
 New Discord Server: 
