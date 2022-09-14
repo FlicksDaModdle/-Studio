@@ -3,7 +3,7 @@ Check out the [original AssetStudio project](https://github.com/Perfare/AssetStu
 _____________________________________________________________________________________________________________________________
 New Discord Server: 
 
-Join [here](https://discord.gg/JAeB5jGdcn) for more discussions, questions, suggestions and feedback.
+Join [here](68 74 74 70 73 3a 2f 2f 64 69 73 63 6f 72 64 2e 67 67 2f 4a 41 65 42 35 6a 47 64 63 6e) for more discussions, questions, suggestions and feedback.
 _____________________________________________________________________________________________________________________________
 
 This is the release of `-Studio`, Modded AssetStudio that should work on:
