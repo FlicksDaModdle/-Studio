@@ -14,7 +14,7 @@ namespace AssetStudio
             var ext = Path.GetExtension(reader.FileName);
             switch (reader.Game.Name)
             {
-                case "1":
+                case "GI":
                     var gi = GameManager.GetGame("1");
                     if (ext != gi.Extension)
                         goto default;
@@ -22,7 +22,7 @@ namespace AssetStudio
                     var blkFile = new BlkFile(reader);
                     bundles = blkFile.Bundles;
                     break;
-                case "2":
+                case "BH3":
                     var bh3 = GameManager.GetGame("2");
                     if (ext != bh3.Extension)
                         goto default;
@@ -36,7 +36,7 @@ namespace AssetStudio
                     var wmvFile = new WMVFile(reader);
                     bundles = wmvFile.Bundles;
                     break;
-                case "5":
+                case "ZZZ":
                     var zzz = GameManager.GetGame("5");
                     if (ext != zzz.Extension)
                         goto default;
@@ -50,7 +50,7 @@ namespace AssetStudio
                     var zzzFile = new BundleFile(reader);
                     bundles.Add(0, zzzFile.FileList);
                     break;
-                case "3":
+                case "SR":
                     var sr = GameManager.GetGame("3");
                     if (ext != sr.Extension)
                         goto default;
@@ -64,7 +64,7 @@ namespace AssetStudio
                     var srFile = new BundleFile(reader);
                     bundles.Add(0, srFile.FileList);
                     break;
-                case "4":
+                case "TOT":
                     var tot = GameManager.GetGame("4");
                     if (ext != tot.Extension)
                         goto default;
