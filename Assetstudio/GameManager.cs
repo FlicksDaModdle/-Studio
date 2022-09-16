@@ -56,55 +56,55 @@ namespace AssetStudio
         public override string ToString() => DisplayName;
     }
 
-    public class 1 : Game
+    public class GI : Game
     {
-        public 1()
+        public GI()
         {
-            Name = "1";
+            Name = "GI";
             DisplayName = "1";
             MapName = "BLKMap";
             Extension = ".blk";
             Path = "GenshinImpact_Data|Yuanshen_Data";
         }
     }
-    public class 2 : Game
+    public class BH3 : Game
     {
-        public 2()
+        public BH3()
         {
-            Name = "2";
+            Name = "BH3";
             DisplayName = "2";
             MapName = "WMVMap";
             Extension = ".wmv";
             Path = "BH3_Data";
         }
     }
-    public class 3 : Game
+    public class SR : Game
     {
-        public 3()
+        public SR()
         {
-            Name = "3";
+            Name = "SR";
             DisplayName = "3";
             MapName = "ENCRMap";
             Extension = ".unity3d";
             Path = "StarRail_Data";
         }
     }
-    public class 4 : Game
+    public class TOT : Game
     {
-        public 4()
+        public TOT()
         {
-            Name = "4";
+            Name = "TOT";
             DisplayName = "4";
             MapName = "TOTMap";
             Extension = ".blk";
             Path = "AssetbundlesCache";
         }
     }
-    public class 5 : Game
+    public class ZZZ : Game
     {
-        public 5()
+        public ZZZ()
         {
-            Name = "5";
+            Name = "ZZZ";
             DisplayName = "5";
             MapName = "ZZZMap";
             Extension = ".bundle";
